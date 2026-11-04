@@ -6,12 +6,12 @@ body {
     font-family: "Noto Serif TC", Georgia, serif;
     /* 深色遮罩 + 背景圖，圖片填滿整個畫面 */
     background:
-        linear-gradient(rgba(25, 18, 12, 0.6), rgba(25, 18, 12, 0.85)),
+        linear-gradient(rgba(56, 202, 95, 0.6), rgba(25, 18, 12, 0.85)),
         url("../images/hero.png") center / cover no-repeat fixed;
 }
 
 ::selection {
-    background: #d4af37;
+    background: #30bb63;
     color: #1e1610;
 }
 
@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-    color: #d4af37;
+    color: #37d47e;
 }
 
 /*header*/
@@ -34,7 +34,7 @@ header {
     z-index: 200000;
     background: rgba(25, 18, 12, 0.45);
     backdrop-filter: blur(8px);                 /* 毛玻璃導覽列 */
-    border-bottom: 1px solid rgba(212, 175, 55, 0.6);
+    border-bottom: 1px solid rgba(53, 201, 97, 0.6);
 }
 
 /*menu*/
@@ -53,8 +53,8 @@ header {
 .logo img {
     width: 100%;
     display: block;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 0%;
 }
 
 /*nav*/
@@ -72,8 +72,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #d4af37;
-    border-bottom: 2px solid #d4af37;           /* 金色底線 */
+    color: #20c036;
+    border-bottom: 2px solid #33cb7f;           /* 金色底線 */
 }
 
 /*hero*/
@@ -101,7 +101,7 @@ nav a:hover {
 .hero h1 {
     position: absolute;
     z-index: 2;
-    top: 20%;
+    top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: clamp(60px, 10vw, 150px);
@@ -115,7 +115,7 @@ nav a:hover {
 .marquee {
     width: 100%;
     overflow: hidden;
-    background: #d4af37;                         /* 金色跑馬燈 */
+    background: #37d451;                         /* 金色跑馬燈 */
     color: #1e1610;
     padding: 20px 0;
     letter-spacing: 4px;
@@ -154,7 +154,7 @@ section {
 
 section h1 {
     flex: 0 0 100%;
-    color: #d4af37;
+    color: #37d459;
     text-align: center;
     letter-spacing: 8px;
 }
@@ -166,7 +166,7 @@ section h1 {
     padding: 15px;
     text-align: center;
     cursor: pointer;
-    border: 1px solid rgba(212, 175, 55, 0.6);
+    border: 1px solid rgba(55, 212, 107, 0.6);
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(6px);                  /* 毛玻璃卡片 */
@@ -184,12 +184,12 @@ section h1 {
 }
 
 .card h2 {
-    color: #d4af37;
+    color: #05300c;
     margin: 10px 0;
 }
 
 .card p {
-    color: #e8a07f;
+    color: #003517;
     letter-spacing: 2px;
     margin: 0;
 }
@@ -198,7 +198,7 @@ section h1 {
     width: 100%;
     aspect-ratio: 3 / 4;
     object-fit: cover;
-    border-radius: 150px 150px 10px 10px;        /* 拱門形狀 */
+    border-radius: 10px 10px 10px 10px;        /* 拱門形狀 */
     transition: transform 0.8s;
 }
 
@@ -210,7 +210,7 @@ section h1 {
 article {
     flex: 0 0 100%;
     margin-bottom: 30px;
-    border: 2px solid rgba(212, 175, 55, 0.6);
+    border: 2px solid rgba(42, 196, 96, 0.6);
     border-radius: 30px;
     box-sizing: border-box;
     overflow: hidden;
@@ -224,7 +224,7 @@ section > a:nth-of-type(2n) article {
 }
 
 article:hover {
-    border-color: #d4af37;
+    border-color: #2ab14e;
     background: rgba(90, 60, 20, 0.85);          /* 滑過變暖金色 */
     transform: scale(1.02);
 }
@@ -258,7 +258,7 @@ article:hover .a_left img {
 
 .a_right h2 {
     font-size: 2.5rem;
-    color: #d4af37;
+    color: #33c959;
 }
 
 /*footer*/
@@ -270,7 +270,7 @@ footer {
     color: #d8cdbb;
     letter-spacing: 2px;
     background: rgba(0, 0, 0, 0.35);
-    border-top: 1px solid #d4af37;
+    border-top: 1px solid #34bb52;
 }
 
 /*for tablets*/
